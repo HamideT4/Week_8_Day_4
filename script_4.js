@@ -103,5 +103,5 @@ entrepreneurs.sort(function(a,b){
 
 entrepreneurs.forEach(entrepreneursContent => {
     
-    console.log(`${entrepreneursContent.last} ${entrepreneursContent.first}`);
+    console.log(`${entrepreneursContent.first} ${entrepreneursContent.last}`);
 })
