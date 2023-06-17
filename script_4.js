@@ -48,7 +48,7 @@ entrepreneurs.forEach(entrepreneursContent => {
 
     if(entrepreneursContent.year >= 1970 && entrepreneursContent.year < 1980){
 
-        console.log(entrepreneursContent)
+        console.log(entrepreneursContent);
 
     }
 
@@ -65,7 +65,7 @@ let array = []
 
 entrepreneurs.forEach(entrepreneursContent => {
 
-    array.push(entrepreneursContent.first,entrepreneursContent.last)
+    array.push(entrepreneursContent.first,entrepreneursContent.last);
 
 })
 
@@ -81,7 +81,7 @@ entrepreneurs.forEach(entrepreneursContent => {
 
     entrepreneursContent.year = 2023 - entrepreneursContent.year
 
-        console.log(`${entrepreneursContent.first} ${entrepreneursContent.last} : ${entrepreneursContent.year} ans`)
+        console.log(`${entrepreneursContent.first} ${entrepreneursContent.last} : ${entrepreneursContent.year} ans`);
 });
 
 console.log("=========================================================================");
